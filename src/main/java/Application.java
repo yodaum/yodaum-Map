@@ -1,4 +1,4 @@
-import java.util.Map;
+import java.util.HashMap;
 import java.util.Set;
 
 public class Application {
@@ -12,7 +12,7 @@ public class Application {
     public static void main(String[] args) {
         Lab mapLab = new Lab();
         System.out.println("Was the map properly instantiated? this will print '{}' if yes, null if no");
-        Map<Integer, String> myMap = mapLab.createMap();
+        HashMap<Integer, String> myMap = mapLab.createMap();
         System.out.println(myMap);
 
         System.out.println("If we're able to add a key/value pair to the map, then we should be able to retrieve the value from the key");

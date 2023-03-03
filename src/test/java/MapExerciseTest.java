@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.util.Map;
+import java.util.HashMap;
 
 public class MapExerciseTest {
     static Lab me;
@@ -17,7 +17,7 @@ public class MapExerciseTest {
      */
     @Test
     public void createMapTest(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         Assert.assertNotNull(map);
     }
 
@@ -26,7 +26,7 @@ public class MapExerciseTest {
      */
     @Test
     public void getSizeTest1(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
@@ -39,7 +39,7 @@ public class MapExerciseTest {
      */
     @Test
     public void getSizeTest2(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
@@ -53,7 +53,7 @@ public class MapExerciseTest {
      */
     @Test
     public void addKeyValuePairTest1(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
@@ -67,7 +67,7 @@ public class MapExerciseTest {
      */
     @Test
     public void addKeyValuePairTest2(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
@@ -83,7 +83,7 @@ public class MapExerciseTest {
      */
     @Test
     public void removeKeyValuePairTest1(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
@@ -100,7 +100,7 @@ public class MapExerciseTest {
      */
     @Test
     public void overwriteValueTest1(){
-        Map<Integer, String> map = me.createMap();
+        HashMap<Integer, String> map = me.createMap();
         if(map == null){
             Assert.fail();
         }else{
